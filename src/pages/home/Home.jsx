@@ -1,8 +1,17 @@
+import Navbar from "../../components/navbar/Navbar";
+
 import "./home.scss";
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="Home">
+
+      <Navbar/>
+    {/* <LeftBar/>
+    <RightBar /> */}
+
+    </div>
+
   )
 }
 
